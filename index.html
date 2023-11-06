@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pets</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main" class="skiplink">Skip to Main Content</a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/clogo.png" class="logo" alt="">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Pets</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <header><h1>Our Pets</h1></header>
+
+    <main id="pets">
+        <div>
+            <h2>Meet Ador</h2>
+            <img class="firstpic" src ="images/ador.jpg" width ="400" alt="Large orange tabby cat with a small narrow face, a tiny tongue, and a long tail."> 
+
+            <p class="par1">
+                "Ador is 1 year old. He is a very vocal cat who loves to be petted on his head. 
+                Ador enjoys wrestling with his sister Maya, who is a few months older than him. 
+                During Ador’s free time, he enjoys looking out the window to see birds and occasionally squirrels in our neighborhood who stop by to say hi to him!"
+            </p>
+            <button onclick="toggleReadMore('ador', 'par1')">Read More</button>
+            <p id="ador_par2" class="par2" style="display: none;">
+                "Ador is also very shy and timid. 
+                He doesn’t like to be in social situations and tends to hide behind a couch or run down to the basement. 
+                Though, once you get to know Ador, he is very affectionate and will often lick your hand when you pet him. 
+                Ador’s favorite snack flavors are chicken and turkey, and if you give him enough treats he will thank you for it vocally with his meows!"
+            </p>
+
+            <h3>Photo Gallery </h3>
+            <div class="gallery">
+                <img src="images/ador_sunkissed.jpeg" width ="200" alt="Orange tabby cat under the sunlight.">
+                <img src="images/ador_question.jpeg" width ="200" alt="Orange tabby cat sitting upright with head tilted to the right.">
+                <img src="images/ador_sleep.jpeg" width ="200" alt="Orange tabby cat sleeping on a ledge.">
+                <img src="images/ador_headrub.jpeg" width ="200" alt="Orange tabby cat laying on a couch being petted on the head.">
+            </div>
+
+            <h4>Ador Likes:</h4>
+            <ul>
+                <li>Dry treats</li>
+                <li>Cuddling</li>
+                <li>Sleep</li>
+            </ul>
+            <!-- Reshad Alam -->
+        </div>
+
+        <div>
+            <h2>Meet Cheeto</h2>
+            <img class="firstpic" src="images/cheeto_cattree.jpg" width="400" alt="Orange cat hanging paws off a cat tower">
+
+            <p class="par1">
+                "Cheeto is a cat who likes to eat a lot and play a lot. He has an obsession with his grandpa (human) and tries to get
+                outside every single day. If he isn't causing problems, he is usually hiding in a seven foot tall cat tree and
+                sleeping."
+            </p>
+            <button onclick="toggleReadMore('cheeto', 'par1')">Read More</button>
+            <p id="cheeto_par2" class="par2" style="display: none;">
+                "Another name for Cheeto is Chicken, because sometimes he sits very scrunched up and ends up looking like a rotisserie
+                chicken. He was nicknamed this by one of his friends, and now he understands it as his own name. He is about six
+                years old and still acts like a younger cat, despite being middle-aged."
+            </p>
+
+            <h3>Photo Gallery</h3>
+            <div class="gallery">
+                <img src="images/cheeto_carpet.jpg" width="200" alt="Cheeto laying sideways on the carpet">
+                <img src="images/cheeto_moon.jpg" width="200" alt="Cheeto lying in the sun in a half moon crescent shape">
+                <img src="images/cheeto_boxes.jpg" width="200" alt="Cheeto lying on boxes with one leg hanging off">
+                <img src="images/cheeto_attack.jpg" width="200" alt="Cheeto attacking a hand trying to pet him">
+            </div>
+        
+            <h4>Cheeto Likes:</h4>
+            <ul>
+                <li>Treats</li>
+                <li>Exploring</li>
+                <li>My Dad</li>
+            </ul>
+            <!-- Divya Shankar -->
+        </div>
+
+        <div>
+            <h2>Meet Leo</h2>
+            <img class="firstpic" src ="images/Leo_primary_photo.jpg" width ="400" alt="Guinea pig doing his best to smile for the camera">  
+            
+            <p class="par1">
+                "Guinea pigs are a naturally energetic animal, who spend up to 20 hours a day awake. 
+                Despite being awake for long periods of time, they naturally hide in their habitats, and can be difficult to see in their inclosures.  
+                Guinea pigs naturally are social creatures that enjoy socializing with other guinea pigs, in the wild they form packs of five to ten."
+            </p>
+            <button onclick="toggleReadMore('leo', 'par1')">Read More</button>
+            <p id="leo_par2" class="par2" style="display: none;">
+                "Leo is a half-lazy, half-lively guinea pig that either likes to run around on the floor, doing tiny hops, 
+                or likes to lay down in the cage for hours at a time nibbling at hay. His favorite hobby is eating, and 
+                he can tell whenever someone is about to give good to him by waiting at the end of the cardboard box patio he has attached to his cage."
+            </p>
+
+            <h3>Photo Gallery </h3>
+            <div class="gallery">
+                <img src="images/Leo_greens.jpg" width ="200" alt="Leo enjoying leafy greens.">
+                <img src="images/Leo_run.jpg" width ="200" alt="Leo running across his cage as fast as he can.">
+                <img src="images/Leo_smile.jpg" width ="200" alt="Leo smiling for the camera.">
+                <img src="images/Leo_escape.jpg" width ="200" alt="Leo socializing with other guinea pigs as they plan their escape.">
+            </div>
+
+            <h4>Leo Likes:</h4>
+            <ul>
+                <li>Lettuce</li>
+                <li>Tiny Hops</li>
+                <li>Nap Time</li>
+            </ul>
+            <!-- Justin Fischer & Alexei Chen -->
+        </div>
+   
+        <div>
+            <h2>Meet Milktea</h2>
+            <img class="firstpic" src ="images/Main.JPG" width ="400" alt="Milktea taking nap">  
+        
+            <p class="par1">
+                "Milktea is a Scottish fold with a personality of a princess. She loves her veggies and refuses to eat anything dropped on the ground. 
+                She makes it clear when she has a demand of any sort by complaining in a loud, distinguished manner. 
+                If what she says could be translated, it probably would be, “This is atrocious, the water container has been empty for the 3rd time this week. 
+                I want to see the manager.”"
+            </p>
+            <button onclick="toggleReadMore('milktea', 'par1')">Read More</button>
+            <p id="milktea_par2" class="par2" style="display: none;">
+                "Despite her cuteness and royalty, she actually suffers from a genetic disorder intentionally brought upon by humans. 
+                I highly advise against keeping a Scottish fold because they are in constant pain when they reach around 2 years old. 
+                Cartilage accumulates around her paw joints and tail joints and it becomes painful for them to even walk. 
+                She is living evidence of human’s cruelty of breeding animals to look pretty while sacrificing the animals’ health."
+            </p>
+
+            <h3>Photo Gallery </h3>
+            <div class="gallery">
+                <img src="images/Milktea_comfy.jpg" width ="200" alt="Milktea enjoying a good massage">
+                <img src="images/Milktea_laptop.JPG" width ="200" alt="Baby Milktea On Laptop">
+                <img src="images/Milktea_mirror.jpeg" width ="200" alt="Milktea sighing at mirror">
+                <img src="images/Milktea_catbox.JPG" width ="200" alt="Milktea Catbox position">
+            </div>
+
+            <h4>Milktea Likes:</h4>
+            <ul>
+                <li>Corn kernels</li>
+                <li>Suitcases</li>
+                <li>Soft surfaces</li>
+            </ul>
+            <!-- Olive Ren -->
+        </div>
+
+        <div>
+            <h2>Meet Jingle</h2>
+            <img class="firstpic" src ="images/jingle.jpg" width ="400" alt="Jingle is a domestic shorthair cat with a white chest and belly and a striped black and gray back. His paws are white and they look like mittens.">  
+        
+            <p class="par1">
+                "Jingle loves going outside. He used to be an outdoor/indoor cat until we realized that he loved to get injured. 
+                Now, we take him on walks with a leash which he loves! 
+                Every time he sees me carrying the leash he goes crazy and meows to go out."
+            </p>
+            <button onclick="toggleReadMore('jingle', 'par1')">Read More</button>
+            <p id="jingle_par2" class="par2" style="display: none;">
+                "Jingle is very mischievous, he has gotten into many different accidents. His first accident was outside; a bee stung his paw and he cried all night long. 
+                The second one was ALSO outside, he got stuck on a tree for four days. Finally, he came back home one day with his tail bleeding and ripped out."
+            </p>
+
+            <h3>Photo Gallery </h3>
+            <div class="gallery">
+                <img src="images/jingle_outside.jpg" width ="200" alt="A close up picture of Jingle’s face outside.">
+                <img src="images/jingle_flowers.jpg" width ="200" alt="Jingle sitting next to the flowers in our garden.">
+                <img src="images/jingle_snow.jpg" width ="200" alt="Jingle in the snow.">
+                <img src="images/jingle_window.jpg" width ="200" alt="Jingle watching the snow outside.">
+            </div>
+
+            <h4>Jingle Likes:</h4>
+            <ul>
+                <li>Walks</li>
+                <li>Being pet</li>
+                <li>Eating treats</li>
+            </ul>
+            <!-- Lynn Sabieddine -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
